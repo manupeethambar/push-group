@@ -71,24 +71,6 @@ a:hover {
     background: #383;
 }
 
-/*#biblio 
-{
-	font-size: .8em;
-	list-style: none;
-	text-indent: 0px;
-	padding: 0px;
-	margin: 0px;
-}
-
-#biblio li
-{ 
-	padding-bottom: 20px; 
-}
-
-span.bibtitle { font-weight: bold; }
-
-span.bibpub { font-style: italic; }*/
-
 #content-container
 {
 	float: left;
@@ -106,7 +88,7 @@ span.bibpub { font-style: italic; }*/
 	margin: 0 20px;
 }
 
-#home, #people, #projects, #press {
+#home, #people, #projects, #press, #videos{
     margin-top: 2em;
 }
 
@@ -131,16 +113,21 @@ span.bibpub { font-style: italic; }*/
 	text-align: center;
 }
 
-/*#content_side
-{
-	clear: left;
-	float: left;
-	width: 560px;
-	padding: 20px 0;
-	margin: 0 0px 0 30px;
-	display: inline;
-}*/
+#publications ul li, #publications .publications {
+	padding-top: 1em;
+}
 
+#videos div {
+	padding-bottom: 1em;
+}
+
+#videos iframe {
+	margin-bottom: 1em;
+}
+
+#videos .caption {
+	font-size: 1em;
+}
 
 #content p
 {
@@ -171,15 +158,3 @@ span.bibpub { font-style: italic; }*/
 	text-align: right;
 	padding: 20px;
 }
-
-/*#aside  
-{       
-    float: right;
-    width: 240px;
-    padding: 20px 0;
-    margin: 0 20px 0 0;
-    display: inline; 
-}       
-
-#aside h3 { margin: 0; }
-*/
