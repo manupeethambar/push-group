@@ -1,3 +1,2 @@
-# PUSH Group
-umbc
+# PUSH Group UMBC
 created by Manu Peethambar
