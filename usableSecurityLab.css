@@ -26,6 +26,19 @@
 	padding: 0;
 	top: 1em;
 	font-size: 1em;
+	text-align: left;
+}
+
+#header .logo 
+{ 
+	float: right;
+	width: 20%;
+	display: inline;
+}
+
+#header h1 
+{ 
+	text-align: left;
 }
 
 a {color: #03c; text-decoration: none;}
