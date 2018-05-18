@@ -102,7 +102,7 @@ a:visited { color: #03c; }
 	margin: 0 20px;
 }
 
-#home, #people, #projects, #press, #videos{
+.tab-pane {
     margin-top: 2em;
 }
 
@@ -127,8 +127,13 @@ a:visited { color: #03c; }
 	text-align: center;
 }
 
-#publications ul li, #publications .publications {
+#publications ul li, #publications .publications, #publications .posters {
 	padding-top: 1em;
+}
+
+.papers {
+	display: block;
+    padding-bottom: 1em;
 }
 
 #videos div {
